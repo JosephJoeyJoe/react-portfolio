@@ -3,6 +3,22 @@ import Project from "../Project";
 
 function Portfolio() {
   const projects = [
+    {  name: "Habit Social",
+      description:
+        "A habit tracker built with the MERN stack that connects people by encouraging each other's goals.",
+      image: "Habit-Social.png",
+      technologies: ["MERN", "GraphQL", "React Bootstrap"],
+      github: "https://github.com/jmail1014/habit-social",
+      deployed: "https://thawing-sea-89785.herokuapp.com/",
+    },
+    {  name: "Coin Press",
+      description:
+        "A web application with the purpose of bringing the latest cryptocurrency news to its users. This application features Application programming interfaces from coinlore.com and youtube.com.",
+      image: "password-generator-project.png",
+      technologies: ["JavaScript", "CSS", "HTML"],
+      github: "https://github.com/jmail1014/habit-social",
+      deployed: "https://thawing-sea-89785.herokuapp.com/",
+    },
     {
       name: "Case Tracker",
       description:
@@ -20,6 +36,15 @@ function Portfolio() {
       deployed: "https://fathomless-cliffs-14331.herokuapp.com/",
     },
     {
+      name: "Robot Gladiators",
+      description:
+        "This application uses javascript to creat a browser based fighting game.",
+      image: "amazonaws-com-thumbnail.jpg",
+      technologies: ["HTML", "JavaScript"],
+      github: "https://github.com/afebre1027/food-drink-app",
+      deployed: "https://afebre1027.github.io/food-drink-app/",
+    },
+    {
       name: "Portfolio",
       description:
         "A professional portfolio application using HTML and advanced CSS that showcases examples of web development work. The application is mobile responsive using flexbox and media queries with emphasis on the user interface.",
@@ -28,6 +53,7 @@ function Portfolio() {
       github: "https://github.com/JosephJoeyJoe/Portfolio",
       deployed: "https://josephjoeyjoe.github.io/Portfolio/",
     },
+    
     {
       name: "Password Generator",
       description:
@@ -37,31 +63,7 @@ function Portfolio() {
       github: "https://github.com/JosephJoeyJoe/password-generator",
       deployed: "https://josephjoeyjoe.github.io/password-generator/",
     },
-    {
-      name: "Robot Gladiators",
-      description:
-        "This application uses javascript to creat a browser based fighting game.",
-      image: "amazonaws-com-thumbnail.jpg",
-      technologies: ["HTML", "JavaScript"],
-      github: "https://github.com/afebre1027/food-drink-app",
-      deployed: "https://afebre1027.github.io/food-drink-app/",
-    },
-    {  name: "Coin Press",
-      description:
-        "A web application with the purpose of bringing the latest cryptocurrency news to its users. This application features Application programming interfaces from coinlore.com and youtube.com.",
-      image: "portfolio-project.png",
-      technologies: ["JavaScript", "CSS", "HTML"],
-      github: "https://github.com/jmail1014/habit-social",
-      deployed: "https://thawing-sea-89785.herokuapp.com/",
-    },
-    {  name: "Habit Social",
-      description:
-        "A habit tracker built with the MERN stack that connects people by encouraging each other's goals.",
-      image: "portfolio-project.png",
-      technologies: ["MERN", "GraphQL", "React Bootstrap"],
-      github: "https://github.com/TrevorL0ng/Project-1-Crypto-Tracker",
-      deployed: "https://trevorl0ng.github.io/Project-1-Crypto-Tracker/",
-    },
+    
   ];
 
   return (
