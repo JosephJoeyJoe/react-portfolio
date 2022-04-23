@@ -4,12 +4,13 @@ li {
 
 /* Nav */
 .navigation {
-  background-image: url("./assets/img/hero-img.JPG");
+  background-image: url("./assets/img/images/hero-img.JPG");
   width: 100%;
-  height: 500px;
+  height: 550px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  border-bottom: 15px groove darkolivegreen;
 }
 /* end of Nav */
 
@@ -18,6 +19,7 @@ li {
   width: 100%;
   max-width: 250px;
   height: auto;
+  border: 5px inset darkolivegreen;
 }
 /* end of About */
 

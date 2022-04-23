@@ -1,95 +1,22 @@
-import React, { useState } from "react";
-import { validateEmail } from "../../utils/helpers";
+import React from "react";
 import Button from "react-bootstrap/Button";
 
+
 function Contact() {
-  const [formState, setFormState] = useState({
-    name: "",
-    email: "",
-    message: "",
-  });
-
-  const [errorMessage, setErrorMessage] = useState("");
-  const { name, email, message } = formState;
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (!errorMessage) {
-      console.log("Submit Form", formState);
-    }
-  };
-
-  const handleChange = (e) => {
-    if (e.target.name === "email") {
-      const isValid = validateEmail(e.target.value);
-      if (!isValid) {
-        setErrorMessage("Your email is invalid.");
-      } else {
-        setErrorMessage("");
-      }
-    } else {
-      if (!e.target.value.length) {
-        setErrorMessage(`${e.target.name} is required.`);
-      } else {
-        setErrorMessage("");
-      }
-    }
-    if (!errorMessage) {
-      setFormState({ ...formState, [e.target.name]: e.target.value });
-      console.log("Handle Form", formState);
-    }
-  };
+  
 
   return (
-    <div className="contact">
-      <div className="container">
+    <div className="contact shadow-sm border-0 px-3 rounded-2 mb-3 py-4 mx-auto mt-5 bg-light">
+     <div className="container">
         <h1>Contact me</h1>
-        <a href="mailto: joseph-burns@outlook.com">Email Me Here</a>
-        <form id="contact-form" onSubmit={handleSubmit}>
-          <div>
-            <label htmlFor="name">Name:</label>
-            <input
-              type="text"
-              name="name"
-              defaultValue={name}
-              onBlur={handleChange}
-            />
-          </div>
-          <div>
-            <label htmlFor="email">Email address:</label>
-            <input
-              type="email"
-              name="email"
-              defaultValue={email}
-              onBlur={handleChange}
-            />
-          </div>
-          <div>
-            <label htmlFor="message">Message:</label>
-            <textarea
-              name="message"
-              rows="5"
-              defaultValue={message}
-              onBlur={handleChange}
-            />
-          </div>
-          {errorMessage && (
-            <div>
-              <p className="error-text">{errorMessage}</p>
-            </div>
-          )}
-          <Button
-            variant="primary"
-            size="lg"
-            date-testid="button"
-            type="submit"
-          >
-            Submit
-          </Button>
-        </form>
+        <div className="d-grid gap-2"><Button href="mailto: joseph-burns@outlook.com" variant="outline-success">Email Me</Button>
+        <Button href="tel:702-677-2653" variant="outline-success">Call or text at 702-677-2653</Button></div>
       </div>
     </div>
   );
 }
 
 export default Contact;
+
+
+

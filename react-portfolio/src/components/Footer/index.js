@@ -14,7 +14,7 @@ function Footer() {
             />
             <SocialIcon
               className="social-icon"
-              url="https://www.linkedin.com/in/joseph-burns-62a6a4218/"
+              url="https://www.linkedin.com/in/joseph-whitaker-62a6a4218/"
               target="_blank"
             />
           </div>

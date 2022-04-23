@@ -1,18 +1,10 @@
 import React from "react";
-
+import Button from 'react-bootstrap/Button'
 function Resume() {
   return (
     <div className="resume">
       <div className="container">
-        <p>
-          <a
-            href="https://www.dropbox.com/s/ileb0t45yj11ncr/Joseph%20Bruce%20Burns.docx?dl=0"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Resume Here
-          </a>
-        </p>
+      <Button href="https://docs.google.com/document/d/1nw3pYSSdmz6wnnbOpNNc4foQV0F6myiL/edit?usp=sharing&ouid=107581453191908377032&rtpof=true&sd=true" variant="outline-success">Click for Resume</Button>
         <h3>Front-End Skills</h3>
         <ul>
           <li>HTML5</li>

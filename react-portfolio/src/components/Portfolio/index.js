@@ -13,24 +13,23 @@ function Portfolio() {
     },
     {  name: "Coin Press",
       description:
-        "A web application with the purpose of bringing the latest cryptocurrency news to its users. This application features Application programming interfaces from coinlore.com and youtube.com.",
-      image: "password-generator-project.png",
+        "A web application with the purpose of bringing the latest cryptocurrency news to its users.",
+      image: "coin-press.png",
       technologies: ["JavaScript", "CSS", "HTML"],
-      github: "https://github.com/jmail1014/habit-social",
-      deployed: "https://thawing-sea-89785.herokuapp.com/",
+      github: "https://github.com/TrevorL0ng/Project-1-Crypto-Tracker",
+      deployed: "https://trevorl0ng.github.io/Project-1-Crypto-Tracker/",
     },
     {
       name: "Case Tracker",
       description:
-        "This application is a kanban for a company to use to track employee Covid cases. The kanban is organized with cases under the catagories of pending and completed. The user will register login information and then be able to utilize the Kanban within the application.",
+        "This application is a kanban for a company to use to track employee Covid cases.",
       image: "case-tracker-project.png",
       technologies: [
         "Node.js",
         "Express.js",
         "Handlebars.js",
         "MySQL and Sequelize ORM",
-        "Heroku",
-        "Express-session and cookies",
+        "Heroku and Express-session",
       ],
       github: "https://github.com/JosephJoeyJoe/Case-Tracker",
       deployed: "https://fathomless-cliffs-14331.herokuapp.com/",
@@ -38,20 +37,20 @@ function Portfolio() {
     {
       name: "Robot Gladiators",
       description:
-        "This application uses javascript to creat a browser based fighting game.",
+        "This application uses javascript to create a browser based fighting game.",
       image: "amazonaws-com-thumbnail.jpg",
       technologies: ["HTML", "JavaScript"],
-      github: "https://github.com/afebre1027/food-drink-app",
-      deployed: "https://afebre1027.github.io/food-drink-app/",
+      github: "https://github.com/JosephJoeyJoe/robot-gladiators",
+      deployed: "https://josephjoeyjoe.github.io/robot-gladiators/",
     },
     {
-      name: "Portfolio",
+      name: "Taskinator",
       description:
-        "A professional portfolio application using HTML and advanced CSS that showcases examples of web development work. The application is mobile responsive using flexbox and media queries with emphasis on the user interface.",
-      image: "portfolio-project.png",
+        "A simple kanban style progress app.",
+      image: "taskinator.png",
       technologies: ["HTML", "CSS", "JavaScript"],
-      github: "https://github.com/JosephJoeyJoe/Portfolio",
-      deployed: "https://josephjoeyjoe.github.io/Portfolio/",
+      github: "https://github.com/JosephJoeyJoe/taskinator",
+      deployed: "https://josephjoeyjoe.github.io/taskinator/",
     },
     
     {
@@ -76,13 +75,19 @@ function Portfolio() {
           <li className="padding">
             <Project projects={projects[1]}></Project>
           </li>
-        </ul>
-        <ul className="flex-row mobile-row">
           <li className="padding">
             <Project projects={projects[2]}></Project>
           </li>
           <li className="padding">
             <Project projects={projects[3]}></Project>
+          </li>
+          </ul>
+          <ul className="flex-row">
+          <li className="padding">
+            <Project projects={projects[4]}></Project>
+          </li>
+          <li className="padding">
+            <Project projects={projects[5]}></Project>
           </li>
         </ul>
       </div>

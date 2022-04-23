@@ -29,14 +29,15 @@ function Project(props) {
     <Row xs={1} md={2} className="g-4">
       {/* {Array.from({ length: 4 }).map((_, idx) => ( */}
         <Col>
-          <Card style={{ width: "18rem" }}>
+          <Card border="dark" style={{ width: "18rem" }}>
             <Card.Img
               variant="top"
               src={require(`../../assets/img/images/${image}`)}
               className="card-image"
             />
             <div className="center">
-              <Card.Body style={{ width: "18rem" }}>
+              <Card.Body 
+              style={{ width: "18rem" }}>
                 <Card.Title className="card-title">{name}</Card.Title>
                 <Card.Text className="card-text">{description}</Card.Text>
                 <Card.Subtitle className="card-subtitle">
