@@ -3,14 +3,7 @@ import Project from "../Project";
 
 function Portfolio() {
   const projects = [
-    {  name: "Habit Social",
-      description:
-        "A habit tracker built with the MERN stack that connects people by encouraging each other's goals.",
-      image: "Habit-Social.png",
-      technologies: ["MERN", "GraphQL", "React Bootstrap"],
-      github: "https://github.com/jmail1014/habit-social",
-      deployed: "https://thawing-sea-89785.herokuapp.com/",
-    },
+
     {  name: "Coin Press",
       description:
         "A web application with the purpose of bringing the latest cryptocurrency news to its users.",
@@ -18,21 +11,6 @@ function Portfolio() {
       technologies: ["JavaScript", "CSS", "HTML"],
       github: "https://github.com/TrevorL0ng/Project-1-Crypto-Tracker",
       deployed: "https://trevorl0ng.github.io/Project-1-Crypto-Tracker/",
-    },
-    {
-      name: "Case Tracker",
-      description:
-        "This application is a kanban for a company to use to track employee Covid cases.",
-      image: "case-tracker-project.png",
-      technologies: [
-        "Node.js",
-        "Express.js",
-        "Handlebars.js",
-        "MySQL and Sequelize ORM",
-        "Heroku and Express-session",
-      ],
-      github: "https://github.com/JosephJoeyJoe/Case-Tracker",
-      deployed: "https://fathomless-cliffs-14331.herokuapp.com/",
     },
     {
       name: "Robot Gladiators",
@@ -62,6 +40,29 @@ function Portfolio() {
       github: "https://github.com/JosephJoeyJoe/password-generator",
       deployed: "https://josephjoeyjoe.github.io/password-generator/",
     },
+    {  name: "Habit Social",
+    description:
+      "A habit tracker built with the MERN stack that connects people by encouraging each other's goals.",
+    image: "Habit-Social.png",
+    technologies: ["MERN", "GraphQL", "React Bootstrap"],
+    github: "https://github.com/jmail1014/habit-social",
+    deployed: "https://thawing-sea-89785.herokuapp.com/",
+  },
+  {
+  name: "Case Tracker",
+  description:
+    "This application is a kanban for a company to use to track employee Covid cases.",
+  image: "case-tracker-project.png",
+  technologies: [
+    "Node.js",
+    "Express.js",
+    "Handlebars.js",
+    "MySQL and Sequelize ORM",
+    "Heroku and Express-session",
+  ],
+  github: "https://github.com/JosephJoeyJoe/Case-Tracker",
+  deployed: "https://fathomless-cliffs-14331.herokuapp.com/",
+}
     
   ];
 
